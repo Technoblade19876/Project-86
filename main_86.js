@@ -1,7 +1,7 @@
 var grades = [];
         var update_scores = function () {
            var val = get_item_list(grades);
-           document.getElementById("score").value = val;
+           document.getElementById("scores").value = val;
            document.getElementById("student_name").value = "";
            document.getElementById("score").value = "";
            document.getElementById("student_name").focus();
